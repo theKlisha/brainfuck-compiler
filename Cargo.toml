@@ -1,0 +1,11 @@
+[package]
+name = "brainfuck-compiler"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+md5 = "0.7.0"
+qbe = "2.1.0"
+
+[build-dependencies]
+cc = "1.0"
